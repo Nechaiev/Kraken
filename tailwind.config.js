@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      color: {
+      backgroundColor: {
         gradient: 'var(--gradient)',
         blue: 'var(--blue)',
         brandBlue: 'var(--brandBlue)',

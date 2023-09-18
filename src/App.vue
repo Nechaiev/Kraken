@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <div class="text-caption">hello world</div>
-  <div class="flex flex-col gap-5 container mx-auto">
+  <div class="text-6xl">hello world</div>
+  <div class="bg-slate-100 flex flex-col gap-5 container mx-auto">
     <ul class="flex flex-wrap gap-8">
       <li class="">
         <div class="w-[100px] h-[100px] bg-gradient"></div>
