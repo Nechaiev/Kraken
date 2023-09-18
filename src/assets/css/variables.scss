@@ -25,3 +25,50 @@ $grayFourth: #323232;
 $dark: #0e3046;
 $darkSecond: #202637;
 $darkThird: #001223;
+
+$h1: 36px;
+$h2: 24px;
+$h3: 20px;
+$h4: 20px;
+$h5: 18px;
+$h6: 16px;
+$caption: 14px;
+$button: 20px;
+$buttonSmall: 14px;
+$paragraph: 18px;
+$link: 14px;
+
+:root {
+  --gradient: #{$gradient};
+  --blue: #{$blue};
+  --brandBlue: #{$brandBlue};
+  --blueSecond: #{$blueSecond};
+  --purple: #{$purple};
+  --brandPurple: #{$brandPurple};
+  --red: #{$red};
+  --redSecond: #{$redSecond};
+  --green: #{$green};
+  --greenSecond: #{$greenSecond};
+  --gold: #{$gold};
+  --goldSecond: #{$goldSecond};
+  --light: #{$light};
+  --gray: #{$gray};
+  --graySecond: #{$graySecond};
+  --grayThird: #{$grayThird};
+  --grayFourth: #{$grayFourth};
+  --dark: #{$dark};
+  --darkSecond: #{$darkSecond};
+  --darkThird: #{$darkThird};
+
+  --h1: #{$h1};
+  --h2: #{$h2};
+  --h3: #{$h3};
+  --h4: #{$h4};
+  --h5: #{$h5};
+  --h6: #{$h6};
+  --caption: #{$caption};
+  --button: #{$button};
+  --buttonSmall: #{$buttonSmall};
+  --paragraph: #{$paragraph};
+  --link: #{$link};
+}

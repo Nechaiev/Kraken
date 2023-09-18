@@ -26,9 +26,21 @@ export default {
         grayFourth: 'var(--grayFourth)',
         dark: 'var(--dark)',
         darkSecond: 'var(--darkSecond)',
-        darkThird: 'var(--darkThird)',
+        darkThird: 'var(--darkThird)',  
+      },
+      fontSize: {
+        h1: 'var(--h1)',
+        h2: 'var(--h2)',
+        h3: 'var(--h3)',
+        h4: 'var(--h4)',
+        h5: 'var(--h5)',
+        h6: 'var(--h6)',
 
-        
+        caption: 'var(--caption)',
+        button: 'var(--button)',
+        buttonSmall: 'var(--buttonSmall)',
+        paragraph: 'var(--paragraph)',
+        link: 'var(--link)',
       }
     },
   },
