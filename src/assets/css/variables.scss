@@ -72,3 +72,26 @@ $link: 14px;
   --paragraph: #{$paragraph};
   --link: #{$link};
 }
+
+.theme-secondary {
+  --gradient: #7ecbf2;
+  --blue: #dbe6ed;
+  --brandBlue: #4288b5;
+  --blueSecond: #072e53;
+  --purple: #f4dcff;
+  --brandPurple: #ba90ce;
+  --red: #f2e1e0;
+  --redSecond: #9b1c13;
+  --green: #d1e7dd;
+  --greenSecond: #0f5132;
+  --gold: #fff3cd;
+  --goldSecond: #664d03;
+  --light: #ffffff;
+  --gray: #f6f6fa;
+  --graySecond: #e9e9e9;
+  --grayThird: #989898;
+  --grayFourth: #323232;
+  --dark: #0e3046;
+  --darkSecond: #202637;
+  --darkThird: #001223;
+}
