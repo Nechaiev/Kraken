@@ -2,7 +2,7 @@
 
 <template>
   <div class="text-6xl">hello world</div>
-  <div class="container bg-slate-100 flex flex-col gap-5 mx-auto">
+  <div class="container bg-slate-100 flex flex-col gap-8 mx-auto">
     <ul class="flex flex-wrap gap-8">
       <li class="">
         <div class="w-[100px] h-[100px] bg-gradient"></div>
