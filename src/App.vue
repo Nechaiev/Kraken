@@ -5,8 +5,12 @@
     :class="containerClasses"
     class="container bg-slate-100 flex flex-col gap-8 mx-auto"
   >
-    <my-input v-model="message" @setTheme="onSetTheme" />
+    <my-input class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" v-model="message" @setTheme="onSetTheme" />
     <p class="pl-2">{{ message }}</p>
+
+    <input class="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" v-model="message" placeholder="Additional input" />
+    <p class="pl-2">Value inputValue: {{ message }}</p>
+
     <div class="mb-6 flex flex-wrap gap-3">
       <label v-for="theme in themes" :key="theme" class="flex flex-wrap gap-2">
         <input
@@ -114,8 +118,7 @@ import ColorCard from "@/components/ColorCard.vue";
 import MyInput from "@/components/MyInput.vue";
 import { ref, computed } from "vue";
 
-const message = ref("Hello guru");
-
+const message = ref("");
 const containerClasses = computed(() => {
   const classes = [];
   if (selectedTheme.value === "secondary") {
