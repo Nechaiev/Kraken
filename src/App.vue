@@ -5,6 +5,8 @@
     :class="containerClasses"
     class="container bg-slate-100 flex flex-col gap-8 mx-auto"
   >
+    <my-input v-model="message" @setTheme="onSetTheme" />
+    <p class="pl-2">{{ message }}</p>
     <div class="mb-6 flex flex-wrap gap-3">
       <label v-for="theme in themes" :key="theme" class="flex flex-wrap gap-2">
         <input
@@ -109,7 +111,10 @@
 
 <script setup>
 import ColorCard from "@/components/ColorCard.vue";
+import MyInput from "@/components/MyInput.vue";
 import { ref, computed } from "vue";
+
+const message = ref("Hello guru");
 
 const containerClasses = computed(() => {
   const classes = [];
