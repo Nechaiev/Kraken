@@ -6,15 +6,15 @@
     class="container bg-slate-100 flex flex-col gap-8 mx-auto"
   >
     <div>
-      <TextInput label="Name" v-model="name" />
-      <TextInput label="Password" v-model="password" type="password" />
-      <Textarea label="Comment" v-model="comment" />
-      <Controlled
+      <base-input label="Name" v-model="name" />
+      <base-input label="Password" v-model="password" type="password" />
+      <app-textarea label="Comment" v-model="comment" />
+      <controlled-component
         label="Gender"
         :options="genderOptions"
         v-model="selectedGender"
       />
-      <Select
+      <my-select
         label="Country"
         :options="countryOptions"
         v-model="selectedCountry"
@@ -143,10 +143,10 @@
 <script setup>
 import ColorCard from "@/components/ColorCard.vue";
 import MyInput from "@/components/MyInput.vue";
-import TextInput from "./components/UI/fields/TextInput.vue";
-import Textarea from "@/components/ui/fields/Textarea.vue";
-import Controlled from "@/components/ui/fields/Controlled.vue";
-import Select from "@/components/ui/fields/Select.vue";
+import BaseInput from "./components/UI/fields/TextInput.vue";
+import AppTextarea from "@/components/ui/fields/Textarea.vue";
+import ControlledComponent from "@/components/ui/fields/Controlled.vue";
+import MySelect from "@/components/ui/fields/Select.vue";
 import { ref, computed } from "vue";
 
 const name = ref("");
@@ -160,6 +160,7 @@ const genderOptions = [
   { label: "Woman", value: "female" },
 ];
 
+const label = 'Country';
 const countryOptions = [
   { label: "Ukraine", value: "ukraine" },
   { label: "Terrorist", value: "russia" },

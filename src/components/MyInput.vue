@@ -1,24 +1,19 @@
 <template>
-  <div >
-    <InputWrapper>
-      <template #label>
-        <label v-if="showLabel">Label text</label>
-      </template>
-      <input :value="modelValue" @input="handleInput" placeholder="Enter 'ukrofashist'" />
-      <template #error>
-        <div class="error" v-if="showError">False text</div>
-      </template>
-      <template #helper-text>
-        <div v-if="showHelperText">Auxiliary text</div>
-      </template>
-    </InputWrapper>
-  </div>
+  <InputWrapper>
+    <template #label>
+    </template>
+    <input :value="modelValue" @input="handleInput" placeholder="Enter 'ukrofashist'" />
+    <template #error>
+    </template>
+    <template #helper-text>
+    </template>
+  </InputWrapper>
 </template>
 
 <script setup>
 import { defineProps, defineEmits } from "vue";
 import debounce from "lodash.debounce";
-import InputWrapper from "./InputWrapper.vue";
+import InputWrapper from "@/components/UI/fields/BaseFieldWrapper.vue";
 
 const { modelValue } = defineProps(["modelValue"]);
 const emit = defineEmits(["update:modelValue", "setTheme"]);
@@ -34,7 +29,7 @@ const handleInput = debounce((event) => {
   }
 }, 500);
 // Change to true if no help text is required
-const showLabel = false;
-const showError = false;
-const showHelperText = false; 
+let showLabel = false;
+let showError = false;
+let showHelperText = false;
 </script>
