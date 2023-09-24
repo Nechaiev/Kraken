@@ -1,16 +1,3 @@
-<!--<template>-->
-<!--  <base-field class="p-2.5 border-solid border-2 border-sky-100 resize-y" :label="label">-->
-<!--    <textarea v-model="value"></textarea>-->
-<!--  </base-field>-->
-<!--</template>-->
-
-<!--<script setup>-->
-<!--import { ref } from 'vue';-->
-<!--import BaseField from '@/components/UI/fields/BaseFieldWrapper.vue';-->
-
-<!--const label = 'Comment';-->
-<!--const value = ref('');-->
-<!--</script>-->
 <template>
   <base-field class="p-2.5 border-solid border-2 border-sky-100 resize-y" :label="label">
     <textarea :value="value" @input="updateValue"></textarea>
