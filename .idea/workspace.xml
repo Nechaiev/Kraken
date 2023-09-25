@@ -15,6 +15,13 @@
       <file url="file://$PROJECT_DIR$/src/components/ColorCard.vue" />
     </disable_hints>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -23,25 +30,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "assignee": "Nechaiev",
-      "reviewState": "REQUIRED"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;Nechaiev&quot;,
+      &quot;reviewState&quot;: &quot;REQUIRED&quot;
     },
     {
-      "state": "OPEN",
-      "assignee": "Nechaiev",
-      "reviewState": "REVIEWED_BY_ME"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;Nechaiev&quot;,
+      &quot;reviewState&quot;: &quot;REVIEWED_BY_ME&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Nechaiev",
-    "reviewState": "REVIEWED_BY_ME"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nechaiev&quot;,
+    &quot;reviewState&quot;: &quot;REVIEWED_BY_ME&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -77,6 +84,11 @@
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/Users/stanislavnechaiev/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -106,6 +118,7 @@
       <updated>1695496909339</updated>
       <workItem from="1695496911421" duration="368000" />
       <workItem from="1695497301957" duration="15495000" />
+      <workItem from="1695581683621" duration="16687000" />
     </task>
     <servers />
   </component>
@@ -122,17 +135,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.vue</url>
-          <line>57</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
