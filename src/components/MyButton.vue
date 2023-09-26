@@ -3,7 +3,7 @@
       :is="props.as"
       :disabled="props.disabled"
       :class="buttonClass">
-    <my-loader v-if="props.loading" />
+    <my-loader v-if="loading"/>
 
     <component
         :is="props.leftIcon"
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import {computed, defineProps} from "vue";
+import {computed} from "vue";
 import {cva} from "class-variance-authority";
 import MyLoader from "@/components/UI/fields/MyLoader.vue";
 
