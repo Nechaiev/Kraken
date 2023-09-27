@@ -11,7 +11,6 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from "vue";
 import debounce from "lodash.debounce";
 import InputWrapper from "@/components/UI/fields/BaseFieldWrapper.vue";
 
@@ -28,8 +27,4 @@ const handleInput = debounce((event) => {
     emit("setTheme", "default");
   }
 }, 500);
-// Change to true if no help text is required
-let showLabel = false;
-let showError = false;
-let showHelperText = false;
 </script>
